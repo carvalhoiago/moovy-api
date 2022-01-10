@@ -17,4 +17,9 @@ export class Movies {
   
   @Column()
   Poster: string;
+
+  @Column({
+    nullable: true,
+  })
+  filename: string;
 }
